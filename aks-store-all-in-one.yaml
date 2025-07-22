@@ -350,7 +350,7 @@ kind: Deployment
 metadata:
   name: store-front
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: store-front
